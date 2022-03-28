@@ -1,15 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
+* {
+    font-family: "Poppins", sans-serif;
+}
+
 body {
     overflow: hidden;
-
-font-family: "Poppins", sans-serif;
     background-image: url("https://wallpapercave.com/wp/wp4676582.jpg");
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
     height: 100vh;
 }
+
 .wrapper {
     width: 500px;
     height: 370px;
@@ -20,40 +23,35 @@ font-family: "Poppins", sans-serif;
     position: relative;
     z-index: 999999;
 }
+
 .header-text {
     color: #fff;
     font-size: 40px;
     font-weight: bold;
     padding-top: 25px;
 }
-input[type=text], input[type=password]{
-width: 70%;
-padding: 15px;
-margin: 5px 0 22px 0;
-border: none;
-background: #f1f1f1;
-border-radius: 10px;
 
-font-family: "Poppins", sans-serif;
+input[type=text], input[type=password] {
+    width: 70%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 10px;
 }
 
 input[type=text]:focus, input[type=password]:focus {
-
-
-font-family: "Poppins", sans-serif;
-outline: none;
+    outline: none;
 }
+
 input[type=submit] {
-background-color: #7870C9;
-
-border-radius: 10px;
-color: white;
-padding: 15px;
-margin: 5px 0 22px 0;
-border: none;
-font-weight: bold;
-
-font-family: "Poppins", sans-serif;
-cursor: pointer;
-width: 75%;
+    background-color: #7870C9;
+    border-radius: 10px;
+    color: white;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    width: 75%;
 }
