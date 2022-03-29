@@ -1,4 +1,4 @@
-.ring
+.spinner-ring-he
 {
   position:absolute;
   top:50%;
@@ -19,7 +19,7 @@
   text-shadow:0 0 10px white;
   box-shadow:0 0 20px rgba(0,0,0,.5);
 }
-.ring:before
+.spinner-ring-he:before
 {
   content:'';
   position:absolute;
@@ -33,7 +33,7 @@
   border-radius:50%;
   animation:animateC 2s linear infinite;
 }
-span
+.spinner-ring-he-vitra
 {
   display:block;
   position:absolute;
@@ -45,7 +45,7 @@ span
   transform-origin:left;
   animation:animate 2s linear infinite;
 }
-span:before
+.spinner-ring-he-vitra:before
 {
   content:'';
   position:absolute;
