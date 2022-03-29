@@ -1,0 +1,128 @@
+.main-part {
+    margin: 0 auto;
+    text-align: center;
+    padding: 0px 5px;
+}
+
+.icon-part ion-icon {
+    font-size: 30px;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin-top: -25px;
+    margin-bottom: 10px;
+    background-color: #34495e;
+}
+
+.icon-part p {
+    margin: 0px;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.card-content-part {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #2f4254;
+    padding: 5px 0px;
+}
+
+.cpanel .card-content-part:hover {
+    background-color: #5a5a5a;
+    cursor: pointer;
+}
+
+.card-content-part a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.cpanel-green .icon-part,
+.cpanel-green .icon-part {
+
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+    background-color: #16a085;
+}
+
+.cpanel-green ion-icon {
+    background-color: #16a085;
+}
+
+.cpanel-green .card-content-part {
+
+    background-color: #149077;
+}
+
+.cpanel-orange .icon-part,
+.cpanel-orange .icon-part {
+
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+    background-color: #f39c12;
+}
+
+.cpanel-orange ion-icon {
+    background-color: #f39c12;
+}
+
+.cpanel-orange .card-content-part {
+    background-color: #da8c10;
+}
+
+.cpanel-blue .icon-part,
+.cpanel-blue .icon-part {
+
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+    background-color: #2980b9;
+}
+
+.cpanel-blue ion-icon {
+    background-color: #2980b9;
+}
+
+.cpanel-blue .card-content-part {
+    background-color: #2573a6;
+}
+
+.cpanel-red .icon-part,
+.cpanel-red .icon-part {
+
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+    background-color: #e74c3c;
+}
+
+.cpanel-red ion-icon {
+    background-color: #e74c3c;
+}
+
+.cpanel-red .card-content-part {
+    background-color: #cf4436;
+}
+
+.cpanel-skyblue .icon-part,
+.cpanel-skyblue .icon-part {
+
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+    background-color: #8e44ad;
+}
+
+.cpanel-skyblue ion-icon {
+    background-color: #8e44ad;
+}
+
+.cpanel-skyblue .card-content-part {
+    background-color: #803d9b;
+}
+
+.cpanel, .cpanel-blue {
+    width: 32%;
+    border-radius: 10px !important;
+    display: inline-block;
+    background-color: #12192C;
+    color: #fff;
+    margin-top: 50px;
+}
